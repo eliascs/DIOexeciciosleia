@@ -9,10 +9,15 @@ import java.util.Scanner;
             System.out.println("Nota: ");
             Nota = scan.nextInt();
 
-            while (Nota < 0 | Nota > 10) {
-                System.out.println("Nota Valida");
+           // while (Nota < 0 | Nota > 10) {
+               // System.out.println("Nota Valida");
+            //}
+            //Nota = scan.nextInt();
+            if (Nota <= 10) {
+                System.out.println("NOTA É VALIDA");
+            } else {
+                System.out.println("Nota invalida! Digite Novamente: ");
             }
-            Nota = scan.nextInt();
         }
     }
 
