@@ -11,8 +11,10 @@ public class NomeEidade {
             System.out.println("Nome ");
             nome = scan.next();
 
+
             System.out.println("Idade ");
             idade = scan.nextInt();
         }
+
     }
 }
