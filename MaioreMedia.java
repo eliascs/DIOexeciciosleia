@@ -12,7 +12,6 @@ public class MaioreMedia {
 
         int count = 0;
 
-
         do {
             System.out.println("Numero: ");
             numero = scan.nextInt();
